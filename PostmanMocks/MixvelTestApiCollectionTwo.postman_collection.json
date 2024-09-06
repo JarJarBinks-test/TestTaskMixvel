@@ -1,0 +1,141 @@
+{
+	"info": {
+		"_postman_id": "95203f41-f96b-4c26-b143-0b2fc79a881c",
+		"name": "MixvelTestApiCollectionTwo",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "8284300"
+	},
+	"item": [
+		{
+			"name": "search",
+			"protocolProfileBehavior": {
+				"disabledSystemHeaders": {}
+			},
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"departure\":\"Moscow\",\"arrival\":\"Sochi\",\"departureDate\":\"2024-09-06T13:23:03.146Z\",\"minTimeLimit\":\"2024-09-06T13:23:03.146Z\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://3ffd29e4-34db-448b-add3-06bae5ffc616.mock.pstmn.io/search",
+					"protocol": "https",
+					"host": [
+						"3ffd29e4-34db-448b-add3-06bae5ffc616",
+						"mock",
+						"pstmn",
+						"io"
+					],
+					"path": [
+						"search"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "search",
+					"originalRequest": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://3ffd29e4-34db-448b-add3-06bae5ffc616.mock.pstmn.io/search",
+							"protocol": "https",
+							"host": [
+								"3ffd29e4-34db-448b-add3-06bae5ffc616",
+								"mock",
+								"pstmn",
+								"io"
+							],
+							"path": [
+								"search"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json",
+							"name": "Content-Type",
+							"description": "",
+							"type": "text"
+						}
+					],
+					"cookie": [],
+					"body": "{\r\n  \"routes\": [{\r\n    \"departure\": {\r\n        \"point\": \"Moscow\",\r\n        \"date\": \"2024-09-06T12:32:09.829Z\"\r\n    },\r\n    \"arrival\": {\r\n        \"point\": \"Sochi\",\r\n        \"date\": \"2024-09-08T12:32:09.829Z\"\r\n    },\r\n    \"price\": 111,\r\n    \"timeLimit\": \"2024-09-06T15:15:09.829Z\"\r\n  }]\r\n}"
+				}
+			]
+		},
+		{
+			"name": "ping",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://3ffd29e4-34db-448b-add3-06bae5ffc616.mock.pstmn.io/ping",
+					"protocol": "https",
+					"host": [
+						"3ffd29e4-34db-448b-add3-06bae5ffc616",
+						"mock",
+						"pstmn",
+						"io"
+					],
+					"path": [
+						"ping"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "ping",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://3ffd29e4-34db-448b-add3-06bae5ffc616.mock.pstmn.io/ping",
+							"protocol": "https",
+							"host": [
+								"3ffd29e4-34db-448b-add3-06bae5ffc616",
+								"mock",
+								"pstmn",
+								"io"
+							],
+							"path": [
+								"ping"
+							]
+						}
+					},
+					"status": "Internal Server Error",
+					"code": 500,
+					"_postman_previewlanguage": null,
+					"header": null,
+					"cookie": [],
+					"body": null
+				}
+			]
+		}
+	]
+}
