@@ -10,15 +10,12 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestTaskMixvel.Repositories", "TestTaskMixvel.Repositories\TestTaskMixvel.Repositories.csproj", "{145E6731-5B21-4EB6-9D33-656940A76289}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{329EAD9F-C5B1-4EF9-B890-B0C067E20D51}"
-	ProjectSection(SolutionItems) = preProject
-		Readme.txt = Readme.txt
-	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestTaskMixvel.UnitTests", "TestTaskMixvel.Test\TestTaskMixvel.UnitTests.csproj", "{678B7FD0-FF23-4E78-89BF-061151FDD72A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestTaskMixvel.UnitTests", "TestTaskMixvel.UnitTests\TestTaskMixvel.UnitTests.csproj", "{678B7FD0-FF23-4E78-89BF-061151FDD72A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestTaskMixvel.Services.UnitTests", "TestTaskMixvel.Services.UnitTests\TestTaskMixvel.Services.UnitTests.csproj", "{15A4ADF4-BC4D-485C-99AD-68E929FA89BC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestTaskMixvel.Services.UnitTests", "TestTaskMixvel.Services.UnitTests\TestTaskMixvel.Services.UnitTests.csproj", "{15A4ADF4-BC4D-485C-99AD-68E929FA89BC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestTaskMixvel.Repositories.UnitTests", "TestTaskMixvel.Repositories.UnitTests\TestTaskMixvel.Repositories.UnitTests.csproj", "{412377A7-09C6-4412-BE82-421E2AA82C49}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestTaskMixvel.Repositories.UnitTests", "TestTaskMixvel.Repositories.UnitTests\TestTaskMixvel.Repositories.UnitTests.csproj", "{412377A7-09C6-4412-BE82-421E2AA82C49}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
